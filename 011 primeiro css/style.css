@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+h1 {
+  color: purple;
+  background-color: rgba(173, 216, 230, 0.651);
+  font-size: 50px;
+  border: 6px solid green;
+}
+
+body {
+  background-color: lightgray;
+  background-image: url(https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2022/03/spacex-Ptd-iTdrCJM-unsplash-scaled.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li {
+  color: green;
+}
+

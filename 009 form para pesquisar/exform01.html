@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício de Form</title>
+</head>
+<body>
+  <h2>Cadastro da liga dos astronautas</h2>
+  <form>
+    <div>
+      <label for="nome"><strong>Nome</strong>
+        <input type="text" name="nome" id="nome">
+      </label>
+    </div><br>
+    <div>
+      <label for="email"><strong>Email</strong>
+        <input type="email" name="email" id="email">
+      </label>
+      <label for="password"><strong>- Password</strong>
+        <input type="password" name="senha" id="senha">
+      </label>
+    </div><br>
+    <div>
+      <label for="nasc"><strong>Data de nascimento</strong>
+        <input type="date" name="nasc" id="nasc">
+      </label>
+      <label for="foto"><strong>Foto</strong>
+        <input type="file">
+      </label>
+    </div><br>
+    <div>
+      <label for="nacionalidade"><strong>Nacionalidade:</strong>
+        <select id="nacionalidade">
+          <option value="selecione" selected disabled>Selecione</option>
+          <option value="brasileiro">Brasileiro</option>
+          <option value="americano">Americano</option>
+          <option value="russo">Russo</option>
+        </select>
+      </label>
+       <strong>Genero:</strong>
+        <label for="masc">Masculino</label>
+        <input type="radio" name="gen" id="masc" value="Masculino">
+        <label for="fem">Feminino</label>
+        <input type="radio" name="gen" id="fem" value="Feminino">
+    </div><br>
+    <div>
+      <label><strong>Suas principais qualidades:</strong></label><br>
+      <input type="checkbox" name="inteligencia" id="inteligencia">Inteligência
+      <input type="checkbox" name="resiliencia" id="resiliencia">Resiliência
+      <input type="checkbox" name="prep" id="prep">Preparo físico
+      <input type="checkbox" name="edu" id="edu">Educação
+    </div><br>
+    <div class="campo">
+      <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Por que você gostaria de ser um astronauta?"></textarea>
+    </div><br>
+    <div>
+      <button class="botão" type="submit">
+        Criar
+      </button>
+    </div>
+</body>
+</html>

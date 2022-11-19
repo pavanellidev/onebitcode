@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+h1 {
+  font-family: 'Geostar', cursive;
+  margin-top: 10px;
+}
+
+p {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+section {
+  width: 70%;
+  height: 100%;
+  margin: 0px auto 0px auto;
+  background-color: #f3eeee;
+}
+
+.date {
+  font-family: 'Roboto', sans-serif;
+  color: #008080;
+  margin: 20px 0px 20px 20px;
+}
+
+h2 {
+  font-family: 'Montserrat', cursive;
+  margin: 20px 0px 20px 20px;
+}
+
+.post-content {
+  font-family: 'Open Sans', sans-serif;
+  margin: 20px 70px 20px 20px;
+  text-align: justify;
+}
