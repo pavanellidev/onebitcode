@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+.coll {
+  background-color: #ff5373;
+  border: 1px solid darkblue;
+  color: white;
+  text-align: center;
+}
+
+body {
+  background-color: #333;
+}
+
